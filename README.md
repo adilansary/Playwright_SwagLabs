@@ -1,7 +1,3 @@
-Sure! Here’s an updated version of the `README.md` file without the project setup section:
-
----
-
 # Swag Labs Automation Project
 
 This project automates the login functionality for the Swag Labs application using Playwright with the Page Object Model (POM) design pattern.
@@ -46,10 +42,5 @@ npx playwright show-report
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-You can add more details and sections to this README file as your project evolves.
