@@ -1,6 +1,6 @@
 # Swag Labs Automation Project
 
-This project automates the login functionality for the Swag Labs application using Playwright with the Page Object Model (POM) design pattern.
+This project automates the Product adding to cart by logging in for the Swag Labs application using Playwright with the Page Object Model (POM).
 
 ## Prerequisites
 
