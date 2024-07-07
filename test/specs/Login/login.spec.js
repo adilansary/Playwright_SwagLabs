@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
-const loginPage = require('../../pageobjects/login.screen.js');
-const testData = require('../../testdata/testData.json');
+const loginPage = require('../../pageobjects/Login/login.page.js');
 
 test('login to SwagLabs', async ({ page }) => {
     const loginScreen = new loginPage(page);

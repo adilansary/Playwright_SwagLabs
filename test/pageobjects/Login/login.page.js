@@ -1,4 +1,4 @@
-const testData = require("../testdata/testData.json");
+const testData = require("../../testdata/testData.json");
 class loginPage {
   url = "https://www.saucedemo.com/v1/";
   usernameID = 'input[data-test="username"]';
@@ -16,7 +16,6 @@ class loginPage {
     await this.page.fill(this.usernameID, testData.userName);
     await this.page.fill(this.passwordID, testData.password);
     await this.page.click(this.loginButtonID);
-    await this.page.waitForTimeout(10000);
   }
 }
 
